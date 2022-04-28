@@ -1,5 +1,5 @@
 body {
-        background-color:#E69E50;
+        background-color:#d4944e;
         color:#1a3842;
         font-family:Roboto; 
         font-size:20px;
@@ -23,10 +23,9 @@ h1, h2, h3, h4, h5, h6 {
  #hero, footer {
    text-align: center;
    background-color:#964E00;
-   padding: 10px;
    font-size: 20px;
    border: 3px solid #45a4c7; 
-
+   overflow:hidden;
 
  }
 
@@ -34,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
  #hero img {
 
          width: 320px;
+         max-width:100%;
          background-color:#964E00;
          padding: 10px;
  }
@@ -90,17 +90,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 #Lit div {
   padding:2rem;
-  max-width: 40rem;
   margin: 0 auto;
 }
 
 #Lit div p  {
   padding:0.3rem 0;
+  clear:both;
 }
 
-#Lit div p::first-letter {
+#Lit div p:first-child:first-letter {
   color: aqua;
   float: left;
+  clear: left;
   font-size: 3em;
   padding-left:.5ex;
   padding-right:.5ex;
@@ -112,12 +113,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
- /* Tablet state */ 
+  /* Tablet state */ 
   @media screen and (min-width: 960px) {
     figure {
       display:grid;
     grid-template-columns: 2fr 1fr;
     }
+ 
     figcaption {
       display:flex;
       justify-content: center;
@@ -125,7 +127,50 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 2rem;
       margin-left: 1rem;
     }
+
     
-  }
+   
+    #lit div {
+      max-width: 100%;
+      columns: 20rem;
+    }
+   
+   } /* large screen size */ 
+   @media screen and (min-width: 100em) {
 
+      #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
 
+      }
+      hr {
+        display: none;
+      }
+      #gallery h2 {
+        grid-column: 1/-1;
+      }
+      figure {
+        display: block;
+      }
+      #Lit div {
+        max-width:100%;
+        columns: 40rem;
+      }
+   }
+   
+   #myVideo {
+     text-align:center;
+     padding-bottom: 30px;
+
+   }
+
+    #myVideo iframe {
+      max-width:100%;
+      border: 5px solid #964E00;
+    }
+    
+    #formElements {
+      display:grid;
+    }
+
+   
