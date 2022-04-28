@@ -168,9 +168,49 @@ h1, h2, h3, h4, h5, h6 {
       max-width:100%;
       border: 5px solid #964E00;
     }
-    
+
     #formElements {
       display:grid;
-    }
+      row-gap:1em;
+      text-align: left;
+      color: skyblue;
 
-   
+
+    }
+    #contact {
+      padding: 1rem;
+      max-width: 600px;
+      margin: 2rem auto;
+
+    }
+    fieldset {
+      border: 2px solid #964E00;
+      margin-bottom: 1em;
+      border-radius: 2em;
+    }
+    legend {
+      background-color:#964E00;
+      color: white;
+      padding: .5em;
+    }
+    
+    #contact input, #contact textarea, #contact select, #contact button {
+     
+      font-size: 1em;
+    }
+#contact ul {
+  list-style: none;
+  padding: 0px;
+}
+#contact li {
+  margin: 1rem;
+
+}
+   #contact button {
+     background-color: #964E00;
+     color: white;
+     border: 1px solid;
+     max-width: 400px;
+     width: 50%;
+     justify-self: center;
+   } 
