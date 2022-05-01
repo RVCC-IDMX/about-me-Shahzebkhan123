@@ -23,8 +23,8 @@ h1, h2, h3, h4, h5, h6 {
  #hero, footer {
    text-align: center;
    background-color:#964E00;
-   font-size: 20px;
-   border: 3px solid #45a4c7; 
+   font-size: 25px;
+   border: 3px solid skyblue; 
    overflow:hidden;
 
  }
@@ -45,16 +45,27 @@ h1, h2, h3, h4, h5, h6 {
 
  }
 /* Hobbies */
- #hobbies ul li:nth-child(even) {
-   color:rgb(61, 2, 2);
+ #hobbies ul li {
+   color: skyblue;
    
 
  }
  #hobbies ul {
-  padding: 2rem;
-  border-radius:5px;
+  padding: 3rem;
+  border-radius:10px;
+  background-color:rgba(0,0,0,0.5);
   box-shadow: 6px 7px 15px rgba(0,0,0, .5);
+  border-radius:90px;
+  border-radius:90px;
+border: groove;
+padding-top:50px;
+border-bottom-color:skyblue;
+border-left-color:blue;
+border-right-color:blue;
+border-top-color:skyblue;
+
  }
+
  #hobbies {
   display: flex; 
   flex-direction: column; 
@@ -98,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   clear:both;
 }
 
-#Lit div p:first-child:first-letter {
+#Lit div p::first-letter {
   color: aqua;
   float: left;
   clear: left;
@@ -166,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 
     #myVideo iframe {
       max-width:100%;
-      border: 5px solid #964E00;
+      border: 5px solid skyblue;
     }
 
     #formElements {
@@ -174,24 +185,39 @@ h1, h2, h3, h4, h5, h6 {
       row-gap:1em;
       text-align: left;
       color: skyblue;
-
-
+    
     }
     #contact {
       padding: 1rem;
       max-width: 600px;
       margin: 2rem auto;
+      
+      margin:10auto;
+      border-color:#fff;
+      border:groove;
 
     }
     fieldset {
-      border: 2px solid #964E00;
+      border: 5px solid skyblue;
       margin-bottom: 1em;
-      border-radius: 2em;
+      border-radius: 3em;
+      background-color:rgba(0,0,0,0.5);
+      border-radius:90px;
+      border: groove;
+      padding-top:50px;
+      border-bottom-color:skyblue;
+      border-left-color: blue;
+      border-right-color: blue;
+      border-top-color:skyblue;
+    
     }
     legend {
       background-color:#964E00;
       color: white;
       padding: .5em;
+    }
+    legend ul  {
+      color: #1a3842;
     }
     
     #contact input, #contact textarea, #contact select, #contact button {
@@ -214,3 +240,4 @@ h1, h2, h3, h4, h5, h6 {
      width: 50%;
      justify-self: center;
    } 
+
