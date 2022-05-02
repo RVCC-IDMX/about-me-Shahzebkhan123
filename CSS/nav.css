@@ -23,13 +23,15 @@ main {
 
 /* navbar */
 .navbar {
-    background-color: #040926;
+    background-color:#003049;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
+   
+    
 }
 
 
@@ -47,6 +49,10 @@ main {
     font-size: 1.2em;
 }
 
+h1 {
+    padding-left: 20px;
+    padding-top: 65px;
+}
 
 
 
@@ -67,7 +73,7 @@ main {
 
 .navbar-links a {
     color: whitesmoke;
-    background-color: #040926;
+    background-color:#003049;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -99,4 +105,6 @@ such that no text wraps
         display: flex;
         justify-content: space-between;
     }
-}
+   
+    }
+
