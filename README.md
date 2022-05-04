@@ -19,3 +19,10 @@ This is my first About Me Website. In this course i have learn how to use skills
 # citation 
 "The Foreign-Born Population of the United States." The Scientific Monthly 8.4 (1919): 380-83. Web.
 "Computer Software Engineer Career Working Environment." Computer Software Engineer Career Working Environment. N.p., n.d. Web. 05 Aug. 2015."Job Description." Dictionary of Marketing Communications (2004): n. pag. Web.
+https://www.itsnicethat.com/news/
+dalton-maag-variable-fonts-opinion-graphic-design-100220 
+
+https://web.dev/variable-fonts/ 
+
+https://24ways.org/2019/an-introduction-to-variable-fonts/.  
+
