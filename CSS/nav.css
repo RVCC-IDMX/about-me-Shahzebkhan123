@@ -23,7 +23,7 @@ main {
 
 /* navbar */
 .navbar {
-    background-color:#003049;
+    background-color:#270D0B;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ h1 {
 
 .navbar-links a {
     color: whitesmoke;
-    background-color:#003049;
+    background-color: #d49446 ;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -105,6 +105,6 @@ such that no text wraps
         display: flex;
         justify-content: space-between;
     }
-    
+
     }
 
