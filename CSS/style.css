@@ -1,8 +1,9 @@
 body {
-        background-color:#d4944e;
+        background-color:#d4994e;
         color:#1a3842;
         font-family:Roboto; 
         font-size:20px;
+        
         
            
 
@@ -18,15 +19,15 @@ h1, h2, h3, h4, h5, h6 {
  header {
 
     text-align: center;
-    background-color:#F3C677 ;
+    background-color:#E69E50;
     
-    
+
  }
 
  #hero, footer {
    text-align: center;
    background-color:#964E00;
-   font-size: 25px;
+   font-size: 30px;
    border: 3px solid skyblue; 
    overflow:hidden;
 
@@ -37,22 +38,31 @@ h1, h2, h3, h4, h5, h6 {
 
          width: 320px;
          max-width:100%;
-         background-color:#964E00;
+         background: color #964E00; 
+         
          padding: 10px;
  }
 /* bio Section*/
  #bio {
         
         text-align: center;
-
+        font-size: 25px;
 
  }
+ #bio h2 {
+   font-size: 60px;
+  
+ }
+ 
+
 /* Hobbies */
  #hobbies ul li {
    color: skyblue;
-   
+   font-size: 25px; }
 
- }
+
+
+ 
  #hobbies ul {
   padding: 3rem;
   border-radius:10px;
