@@ -33,3 +33,4 @@ https://michaelmangial1.medium.comintroduction-to-scalable-vector-graphics-svg-a
 
 https://www.freecodecamp.org/news/a-fresh-perspective-at-why-when-and-how-to-use-svg/. 
 
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
