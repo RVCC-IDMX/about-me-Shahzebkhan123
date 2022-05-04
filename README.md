@@ -26,3 +26,10 @@ https://web.dev/variable-fonts/
 
 https://24ways.org/2019/an-introduction-to-variable-fonts/.  
 
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animate 
+
+https://michaelmangial1.medium.comintroduction-to-scalable-vector-graphics-svg-animations-8b321a579f68
+
+https://www.freecodecamp.org/news/a-fresh-perspective-at-why-when-and-how-to-use-svg/. 
+
